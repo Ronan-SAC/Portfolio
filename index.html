@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="media.css">
     <meta charset="UTF-8">
@@ -10,12 +11,11 @@
 <body>
 
     <nav id="navbar">
-        <div class="logo">Ronan </div>
+        <div class="logo">Portifolio</div>
             <div>
                 <ul class="links">
                     <li><a href="#Sobre Mim">Sobre Mim</a></li>
                     <li><a href="#Experiencia">Minha Experiencia</a></li>
-                    <li><a href="#Projetos">Meus Projetos</a></li>
                     <li><a href="#Contato">Entre em Contato</a></li>
                 </ul>
             </div>
@@ -32,7 +32,6 @@
             <div class="mobile_links">
                 <li><a href="#Sobre Mim" onclick="ToggleMenu()">Sobre Mim</a ></li>
                 <li><a href="#Experiencia" onclick="ToggleMenu()">Minha Experiencia</a></li>
-                <li><a href="#Projetos" onclick="ToggleMenu()">Meus Projetos</a></li>
                 <li><a href="#Contato" onclick="ToggleMenu()">Entre em Contato</a></li>
             </div>
         </div>
@@ -40,16 +39,45 @@
     </nav>
 
     <section id="profile">
-        <div class="icon_profile"><img src="https://images.vexels.com/media/users/3/135118/isolated/preview/676bf0e9f3c16649cd7f426c6dcd755a-sinal-de-usuario-plano-com-fundo-redondo.png" alt=""></div>
+        <div class="img_profile"><img src="https://images.vexels.com/media/users/3/135118/isolated/preview/676bf0e9f3c16649cd7f426c6dcd755a-sinal-de-usuario-plano-com-fundo-redondo.png" alt="my_photo_:0"></div>
         <div class="text_profile">
-            <p class="text_profile_p1">Olá eu sou o</p>
-            <h1 class="text_profile_h1">Ronan</h1>
-            <p class="text_profile_p2">Cursando Analise e Desenvolvimento de Sistema - Senac Hub Academy</p>
-        </div>
-        <div class="button_container">
-            <button class="button_contact" onclick="location.href='./#Contato'">Entre em Contato</button>
+            <h1 class="text_h1">Ronan</h1>
+            <p class="text_p1">Cursando Analise e Desenvolvimento de Sistema </p>
+            <p class="text_profile_p3" onclick="window.open('https://ww3.ms.senac.br/Escolas/Campo-Grande/Hub-Academy')"> Senac Hub Academy</p>
+            
+            <div class="button_profile">
+                <button class="button_contact" role="button" onclick="location.href='./#Contato'">Entre em Contato</button>
+            </div>
+            <div class="social">
+                <img src="/assets/github.png" alt="github" class="icon"  onclick="window.open('http://github.com/Ronan-SAC')">
+                <img src="/assets/linkedin.png" alt="linkedin" class="icon" onclick="window.open('https://br.linkedin.com/in/ronan-s-campos')">
+            </div>
+
+
         </div>
     </section>
+
+    <section id="Sobre Mim">
+        <p class="text_p1">Me conheça um pouco mais</p>
+        <h1 class="text_h1">Sobre Mim</h1>
+        <div class="container">
+            <div class="img_profile">
+                <div class="img_profile"><img src="https://images.vexels.com/media/users/3/135118/isolated/preview/676bf0e9f3c16649cd7f426c6dcd755a-sinal-de-usuario-plano-com-fundo-redondo.png" alt="my_photo_:0"></div>
+            </div>
+            <div class="about_details">
+                <div class="about_container">
+                    <div class="details_container">
+                        <img src="./assets/experience_icon.png" alt="experience_icon" class="icon">
+                        <h3>Experiencia</h3>
+                        <p>1+ Ano <br> Cursando Analise e Desenvolvimento de Sistemas</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    
 
 
 
