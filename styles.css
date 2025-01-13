@@ -167,9 +167,10 @@ section{
 
 }
 
-.img_profile{
-    height: 400px;
-    width: 400px;
+.img_profile img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
     margin: auto 0;
 }
 
@@ -344,9 +345,11 @@ about_details{
     height: 80%;
 }
 
-.img_about{
+.img_about img{
     height: 512px;
     width: 512px;
+    border-radius: 50%;
+    margin: auto 0;
 }
 .text_p1_about_contact{
     text-align: center;
