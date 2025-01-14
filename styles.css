@@ -101,6 +101,10 @@ a:hover{
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-radius: 5%;
 }
 
 .mobile_links a {
@@ -111,6 +115,7 @@ a:hover{
     color: black;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    
 }
 
 .mobile_links.open{
@@ -144,9 +149,8 @@ a:hover{
 
 
 section{
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 30vh;
-    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -163,16 +167,22 @@ section{
     display: flex;
     justify-content: center;
     gap: 10rem;
-    height: 80vh;
+    height: 85vh;
 
 }
 
-.img_profile img{
-    height: 500px;
-    width: 500px;
+.img_profile{
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     margin: auto 0;
 }
+
+.img_profile img{
+    border-radius: 50%;
+}
+
+
 
 .text_profile{
     align-items: center;
@@ -310,7 +320,7 @@ section{
 }
 
 
-about_details{
+.about_details{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -327,12 +337,12 @@ about_details{
     position: absolute;
     right: 4rem;
     height: 3rem;
-    bottom: -50rem;
+    bottom: -39rem;
     cursor: pointer;
 }
 
 .details_container{
-    padding: 1.5rem;
+    padding: 1.1rem;
     flex: 1;
     background-color: whitesmoke;
     border-radius: 2rem;
@@ -342,14 +352,20 @@ about_details{
 
 .container{
     gap: 4rem;
-    height: 80%;
+    height: 100%;
+}
+
+.img_about{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
 
 .img_about img{
-    height: 512px;
-    width: 512px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
-    margin: auto 0;
+   
 }
 .text_p1_about_contact{
     text-align: center;
@@ -366,7 +382,7 @@ about_details{
 
 .text_container{
     text-align: justify;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 
@@ -417,7 +433,7 @@ about_details{
     gap: 3rem;
     list-style: none;
     display: flex;
-    margin-top: 40rem;
+    margin-top: 30rem;
 }
 
 .footer_mobile{
